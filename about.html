@@ -143,7 +143,16 @@ h3 {
 </style>
 </head>
 
-<body>
+
+<body oncontextmenu=self.event.returnvalue=false>
+<script>
+    //取消选中并且取消右键操作
+    document.body.onselectstart =
+        document.body.oncontextmenu =
+        function () {
+            return false; //取消浏览器默认操作
+        };
+</script>
 <div id="base">
    
     <div id="white_box">
