@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<title>wlt使用</title>
+<meta name="copyright" content="Copyright XSERVER Inc.">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+}
+ul {
+    padding-left: 2em;
+}
+html {
+    overflow-y: scroll;
+    background: #3b79b7;
+}
+body {
+   font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 75%;
+    text-align: center;
+    color: white;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+h1 {
+    font-weight: bold;
+    line-height: 1;
+    padding-bottom: 20px;
+    font-family: Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+}
+p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.explain {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    line-height: 1.5;
+    margin: 30px auto;
+    padding: 17px;
+}
+#cause {
+    text-align: left;
+}
+#cause li {
+    color: #666;
+}
+h3 {
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0;
+}
+#white_box {
+    margin: 15px auto 0;
+    background-color: white;
+}
+
+/* ====================
+
+  スマートフォン
+
+======================= */
+@media only screen and (min-width: 0) and (max-width: 767px) {
+	#base {
+		padding: 30px 10px;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	h1 span {
+		font-size: 60px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	.explain {
+		font-size: 14px;
+	}
+	h3 {
+		margin-top: 45px;
+		font-size: 16px;
+	}
+	#cause {
+		padding: 20px;
+		font-size: 12px;
+	}
+}
+
+/* ====================
+
+   パソコン＆タブレット
+
+======================= */
+
+@media only screen and (min-width: 768px) {
+	#base {
+		margin-top: 80px;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	h1 span {
+		font-size: 110px;
+	}
+	.explain {
+		font-size: 16px;
+		width: 660px;
+	}
+	#white_box {
+		width: 680px;
+		margin-bottom: 50px;
+	}
+	h3 {
+		font-size: 20px;
+		margin-top: 80px;
+	}
+	#cause {
+		padding: 30px;
+		font-size: 14px;
+	}
+}
+</style>
+</head>
+
+<body oncontextmenu=self.event.returnvalue=false>
+<script>
+    //取消选中并且取消右键操作
+    document.body.onselectstart =
+        document.body.oncontextmenu =
+        function () {
+            return false; //取消浏览器默认操作
+        };
+</script>
+ 
+<div id="base">
+    
+	 <p class="explain"><font color = "yellow" size=12>支持:物联通X3 X5 WMS 果易等版本激活测试</font> </p>
+	 <p class="explain">1.首次使用请点击物联通项目里的启动xx服务</p>
+	 <p class="explain">2.按提示安装对应tls证书,全部点<font color =red>是</font>就可以了</p>
+	 <p class="explain">3.登录网页版物联通管理后台如127.0.0.1:6868-如果登录不了(空白屏)请跳到第五步登录进后台后再进行下一步注册操作</p>
+	 <p class="explain">4.在软件注册菜单点击<font color =red>[软件注册]</font>按钮输入正确信息提交后再点激活</p>
+	 <p class="explain">5.如果出现故障请取消物联通项目里的启动xx服务的勾,按提示卸载第2步所安装的证书,全部点<font color =red>是</font></p>
+	 <p class="explain">6.完成了.如果还有问题请下载 <a href="#" onClick="window.external.fun(2)">本地模拟文件</a>.</p>
+	 <p class="explain">激活之后即可停止激活服务,不影响使用.</p>
+    <h3>其他版本正在支持中...</h3>
+		 <button id="close" style="background-color: #7ED321;width: 146px;height: 36px;color: #FFFFFF" onClick="window.external.fun(2)">本地模拟文件下载</button>
+  <button id="close" style="background-color: #7ED321;width: 146px;height: 36px;color: #FFFFFF" onClick="window.external.Close()">同意以上内容并关闭</button>	 <button id="close" style="background-color: #78D321;width: 76px;height: 36px;color: #FFFFFF" onClick="window.external.end()">不同意</button>
+	<div id="white_box">
+        <div id="cause">
+            <ul>
+                <li>感谢测试</li>
+                <li><a href="https://t.me/almightsoft">联系我们</a> <a href="https://yoursoftder.github.io/-down">访问Github</a> <font color =red>如果打不开请谷歌获取科学上网方法</font></li>
+            </ul>
+        </div>
+    </div>
+    <!--//base--></div>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
